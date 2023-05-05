@@ -2745,35 +2745,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
-"ahI" = (
-/obj/structure/rack,
-/obj/item/shield/riot{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/shield/riot,
-/obj/item/shield/riot{
-	pixel_x = 3;
-	pixel_y = -3
-	},
-/obj/machinery/button/door{
-	id = "armory";
-	name = "Armory Shutters";
-	pixel_x = 28;
-	req_access_txt = "3"
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "ahK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3349,27 +3320,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
 /area/security/main)
-"ajs" = (
-/obj/machinery/door/poddoor/shutters{
-	id = "armory";
-	name = "armory shutters"
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/border_only,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "ajt" = (
 /obj/structure/closet{
 	name = "Evidence Closet 5"
@@ -61102,7 +61052,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/carbon_tank{
 	dir = 1;
-	sensors = list("co2_sensor"="Tank")
+	sensors = list("co2_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -61160,7 +61110,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/computer/atmos_control/tank/air_tank{
-	sensors = list("air_sensor"="Tank")
+	sensors = list("air_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -62199,7 +62149,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/toxin_tank{
 	dir = 1;
-	sensors = list("tox_sensor"="Tank")
+	sensors = list("tox_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -64113,6 +64063,29 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/security/prison)
+"mFI" = (
+/obj/structure/rack,
+/obj/item/shield/riot{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/shield/riot,
+/obj/item/shield/riot{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/security/armory)
 "mGy" = (
 /obj/machinery/light{
 	dir = 1
@@ -65696,7 +65669,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/mix_tank{
 	dir = 1;
-	sensors = list("mix_sensor"="Tank")
+	sensors = list("mix_sensor" = "Tank")
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/atmos/distro)
@@ -76400,18 +76373,6 @@
 	},
 /turf/open/floor/plating,
 /area/science/lab)
-"uoN" = (
-/obj/structure/table,
-/obj/machinery/photocopier/faxmachine{
-	department = "Warden";
-	name = "Warden's Fax Machine"
-	},
-/obj/machinery/recharger/wallrecharger{
-	pixel_x = 4;
-	pixel_y = 21
-	},
-/turf/open/floor/plasteel/showroomfloor,
-/area/security/warden)
 "upt" = (
 /obj/machinery/light{
 	dir = 8
@@ -79089,7 +79050,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/computer/atmos_control/tank/nitrogen_tank{
-	sensors = list("n2_sensor"="Tank")
+	sensors = list("n2_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -79432,6 +79393,28 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/secondary)
+"wqm" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "armory";
+	name = "armory shutters";
+	red_alert_access = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/security/armory)
 "wrl" = (
 /obj/effect/mapping_helpers/teleport_anchor,
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer2,
@@ -79973,6 +79956,22 @@
 	},
 /turf/open/floor/plasteel/dark/telecomms,
 /area/ai_monitored/secondarydatacore)
+"wIj" = (
+/obj/structure/table,
+/obj/machinery/photocopier/faxmachine{
+	department = "Warden";
+	name = "Warden's Fax Machine"
+	},
+/obj/machinery/recharger/wallrecharger{
+	pixel_x = 4;
+	pixel_y = 21
+	},
+/obj/machinery/keycard_auth{
+	pixel_x = 1;
+	pixel_y = 37
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/security/warden)
 "wIM" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
@@ -80044,7 +80043,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/computer/atmos_control/tank/oxygen_tank{
-	sensors = list("o2_sensor"="Tank")
+	sensors = list("o2_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -80772,7 +80771,7 @@
 	},
 /obj/machinery/computer/atmos_control/tank/nitrous_tank{
 	dir = 1;
-	sensors = list("n2o_sensor"="Tank")
+	sensors = list("n2o_sensor" = "Tank")
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
@@ -108835,7 +108834,7 @@ akB
 akq
 anm
 adY
-uoN
+wIj
 fQZ
 asr
 anr
@@ -110885,7 +110884,7 @@ aeB
 agc
 dBX
 agc
-ajs
+wqm
 ajy
 ajy
 amx
@@ -111141,7 +111140,7 @@ aeq
 aeq
 agQ
 afF
-ahI
+mFI
 aeq
 ajz
 ajA

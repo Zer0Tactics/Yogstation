@@ -1230,15 +1230,6 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/warden)
-"agr" = (
-/obj/structure/table,
-/obj/machinery/recharger,
-/obj/machinery/airalarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/turf/open/floor/plasteel/showroomfloor,
-/area/security/warden)
 "ags" = (
 /obj/structure/grille,
 /turf/open/space,
@@ -19242,6 +19233,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"dAP" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/machinery/keycard_auth{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/security/warden)
 "dAU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -30059,16 +30062,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/checkpoint/service)
-"hMM" = (
-/obj/machinery/button/door{
-	id = "armory";
-	name = "Armory Shutters";
-	pixel_x = 23;
-	pixel_y = -22;
-	req_access_txt = "3"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "hNs" = (
 /obj/effect/landmark/stationroom/maint/fivexthree,
 /turf/template_noop,
@@ -42305,6 +42298,20 @@
 /obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/maintenance/department/electrical)
+"mJd" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/window{
+	id = "armory";
+	red_alert_access = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/security/armory)
 "mJk" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -64720,19 +64727,6 @@
 /obj/effect/turf_decal/trimline/green/filled/line/lower,
 /turf/open/floor/plasteel,
 /area/janitor)
-"vUD" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/machinery/door/poddoor/shutters/window{
-	id = "armory"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
 "vUJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
@@ -101212,7 +101206,7 @@ aaZ
 sXg
 wtN
 adl
-hMM
+adl
 wtN
 iMJ
 ctM
@@ -101220,7 +101214,7 @@ jUA
 aeM
 nSl
 aIi
-agr
+dAP
 agt
 ayd
 quK
@@ -101468,8 +101462,8 @@ aaa
 aaZ
 aaZ
 aaZ
-vUD
-vUD
+mJd
+mJd
 aaZ
 aaZ
 aaZ
